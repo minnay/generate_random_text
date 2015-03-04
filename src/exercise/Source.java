@@ -4,11 +4,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class FileHelper {
-    public FileHelper() {}
+public class Source {
+    public Source() {}
 
-    public String getContent(String fileName) throws FileNotFoundException {
-        Scanner scanner = new Scanner(getSourceFromFile(fileName));
+    public String getContent(File sourceFile) throws FileNotFoundException {
+        Scanner scanner = new Scanner(sourceFile.getAbsoluteFile());
         String content = getTextWithoutPunctuation(scanner);
         return content;
     }
@@ -18,9 +18,5 @@ public class FileHelper {
                 replaceAll("\\n", " ").  //remove the end of line character with a space
                 replaceAll("[^a-zA-Z ]", ""). // strip off any character other than letters
                 toLowerCase();
-    }
-
-    private File getSourceFromFile(String fileName) {
-        return new File(FileHelper.class.getResource("../" + fileName).getFile());
     }
 }

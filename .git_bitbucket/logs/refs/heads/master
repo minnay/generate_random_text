@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 143066208f2c21c79c41f21bd0e36dd41f1732f8 Minna Yao <minna.yao@gmail.com> 1425371199 +1000	commit (initial): first commit
+143066208f2c21c79c41f21bd0e36dd41f1732f8 7ba16ad6cfb3fd64f8731bfcb664079e771b7c72 Minna Yao <minna.yao@gmail.com> 1425395260 +1000	commit: added a build script and a test suite to run the app in console
+7ba16ad6cfb3fd64f8731bfcb664079e771b7c72 5d0db94a4e5ab85a8f96e540c8fc237eefa24d64 Minna Yao <minna.yao@gmail.com> 1425397722 +1000	commit: added the build script
+5d0db94a4e5ab85a8f96e540c8fc237eefa24d64 ba65095402bdef681c1cb9d78c6d94e02d6a545b Minna Yao <minna.yao@gmail.com> 1425419967 +1000	commit: changed the interface of RandomTextGenerator so it takes only the starting words pair
+ba65095402bdef681c1cb9d78c6d94e02d6a545b 591ca35d2440616e8eaf727ecd88ee890e3ea61d Minna Yao <minna.yao@gmail.com> 1425428100 +1000	commit: added README

@@ -3,13 +3,14 @@ package exercise;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.TreeMap;
 import java.util.regex.Pattern;
 
 public class Index {
 
-    public TreeMap indexing(String source) {
-        TreeMap<String, HashSet> map = new TreeMap<String, HashSet>();
+    public Map indexing(String source) {
+        Map<String, HashSet> map = new TreeMap<String, HashSet>();
         List<String> tokens = Arrays.asList(Pattern.compile(" ").split(source));
 
         // if there are only two words, we are done!
@@ -39,7 +40,7 @@ public class Index {
             }
 
             if(listOfSuccessors.size() == 0) {  //it has not been added to the map, so add it
-                if (next != null) {
+                if (next != null) { // obviously make no sense if adding 'null' element
                     listOfSuccessors.add(next);
                 }
                 map.put(pairToSearch, listOfSuccessors);

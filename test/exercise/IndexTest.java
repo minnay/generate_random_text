@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.HashSet;
+import java.util.Map;
 import java.util.TreeMap;
 
 import static org.junit.Assert.assertTrue;
@@ -21,7 +22,7 @@ public class IndexTest {
     public void testIndexingSourceWithASingleFollowingWord() throws Exception {
         String source = "I wish";
 
-        TreeMap output = index.indexing(source);
+        Map output = index.indexing(source);
 
         HashSet<String> possibleWordsForIWish = (HashSet<String>) output.get("I wish");
         assertTrue(possibleWordsForIWish.size() == 0);
@@ -30,7 +31,7 @@ public class IndexTest {
     @Test
     public void testIndexingSourceWithNoRepeatedPairs() throws Exception {
         String source = "I wish I may I might";
-        TreeMap output = index.indexing(source);
+        Map output = index.indexing(source);
 
         HashSet<String> possibleWordsForIWish = (HashSet<String>) output.get("I wish");
         assertTrue(possibleWordsForIWish.size() == 1);
@@ -40,7 +41,7 @@ public class IndexTest {
     @Test
     public void testIndexingSourceWhenAWordHasMultipleSuccessors() throws Exception {
         String source = "I wish I may I wish I might";
-        TreeMap output = index.indexing(source);
+        Map output = index.indexing(source);
 
         HashSet<String> possibleWordsForWishI = (HashSet<String>) output.get("wish I");
         assertTrue(possibleWordsForWishI.size() == 2);
@@ -51,7 +52,7 @@ public class IndexTest {
     @Test
     public void testIndexingSourceWhenAWordHasNoSuccessors() throws Exception {
         String source = "I wish I may I wish I might";
-        TreeMap output = index.indexing(source);
+        Map output = index.indexing(source);
 
         HashSet<String> possibleWordsForIMight = (HashSet<String>) output.get("I might");
         assertTrue(possibleWordsForIMight.size() == 0);
@@ -60,7 +61,7 @@ public class IndexTest {
     @Test
     public void testIndexingSourceWithAPairIsAtTheEndAndWithASuccessor() throws Exception {
         String source = "I wish I";
-        TreeMap output = index.indexing(source);
+        Map output = index.indexing(source);
 
         HashSet<String> possibleWordsForIWish = (HashSet<String>) output.get("I wish");
         assertTrue(possibleWordsForIWish.size() == 1);
@@ -70,7 +71,7 @@ public class IndexTest {
     @Test
     public void testIndexingSourceWhenAPairIsAtTheEndAndWithSuccessors() throws Exception {
         String source = "I wish I may I wish I may";
-        TreeMap output = index.indexing(source);
+        Map output = index.indexing(source);
 
         HashSet<String> possibleWordsForIMight = (HashSet<String>) output.get("I may");
         assertTrue(possibleWordsForIMight.size() == 1);

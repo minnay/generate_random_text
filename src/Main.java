@@ -1,18 +1,20 @@
-import exercise.FileHelper;
+import exercise.Source;
 import exercise.RandomTextGenerator;
 
-import java.util.TreeMap;
+import java.io.File;
 
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        FileHelper fileHelper = new FileHelper();
-        String source = fileHelper.getContent("sample.txt");
-        String start = args[0];
+        Source fileHelper = new Source();
+        String source = fileHelper.getContent(new File(args[0]));
+        String firstWord = args[1];
+        String secondWord = args[2];
 
-        RandomTextGenerator randomTextGenerator = new RandomTextGenerator();
-        TreeMap indexedSource = randomTextGenerator.initialise(source);
-        String randomString = randomTextGenerator.generate(indexedSource, start);
+        RandomTextGenerator randomTextGenerator = new RandomTextGenerator(source);
+        String randomString = randomTextGenerator.generate(firstWord, secondWord);
+
+        String start = firstWord + " " + secondWord;
 
         if (randomString == null) {
             System.out.println("No match to generate a random string starting with '" + start + "'");

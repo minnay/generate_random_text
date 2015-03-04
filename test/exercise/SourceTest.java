@@ -6,20 +6,20 @@ import org.junit.Test;
 
 import java.util.Scanner;
 
-public class FileHelperTest {
+public class SourceTest {
 
-    private FileHelper fileHelper;
+    private Source source;
 
     @Before
     public void setUp() {
-        fileHelper = new FileHelper();
+        source = new Source();
     }
     
     @Test
     public void shouldReturnTextWithoutPunctuation() {
         String source = "this is, a 'sample'. text with ? punctuation\n" + "here is another one";
         Scanner scanner = new Scanner(source);
-        String output = fileHelper.getTextWithoutPunctuation(scanner);
+        String output = this.source.getTextWithoutPunctuation(scanner);
         String expected = "this is a sample text with  punctuation here is another one";
         Assert.assertEquals(expected, output);
     }

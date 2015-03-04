@@ -1,26 +1,24 @@
 package exercise;
 
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Random;
-import java.util.TreeMap;
 
 public class RandomTextGenerator {
+    Map indexedSource;
 
-    public TreeMap initialise(String source) {
+    public RandomTextGenerator(String source) {
         Index index = new Index();
-        return index.indexing(source);
+        indexedSource = index.indexing(source);
     }
 
-    public String generate(TreeMap indexedSource, String start) throws Exception {
+    public String generate(String firstWord, String secondWord) throws Exception {
         StringBuffer output = new StringBuffer();
 
-        String firstWord = start.split(" ")[0];
-        String secondWord = start.split(" ")[1];
-
-        if (anyMatchForTheStart(indexedSource, firstWord, secondWord)) {
+        if (!anyMatchForTheStart(indexedSource, firstWord, secondWord)) {
             return null;
         } else {
-            output.append(start);
+            output.append(firstWord + " " + secondWord);
         }
 
         while (true) {
@@ -49,19 +47,23 @@ public class RandomTextGenerator {
         return output.toString();
     }
 
-    protected boolean anyMatchForTheStart(TreeMap indexedSource, String firstWord, String secondWord) {
+    public Map getIndexedSource() {
+        return indexedSource;
+    }
+
+    protected boolean anyMatchForTheStart(Map indexedSource, String firstWord, String secondWord) {
         return getPossibleSuccessorsForPair(indexedSource, firstWord, secondWord) != null;
     }
 
     private Object bingo(Object[] listOfWords) {
         Random randomGenerator = new Random();
         int randomInt = randomGenerator.nextInt(listOfWords.length);
-        //System.out.println("generate number: " + randomInt);
         return listOfWords[randomInt];
     }
 
-    private HashSet<String> getPossibleSuccessorsForPair(TreeMap indexedSource, String firstWord, String secondWord) {
+    private HashSet<String> getPossibleSuccessorsForPair(Map indexedSource, String firstWord, String secondWord) {
         String pairToSearch = firstWord + " " + secondWord;
         return (HashSet<String>) indexedSource.get(pairToSearch);
     }
+
 }
