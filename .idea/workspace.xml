@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38551402" vertical-offset="0" max-vertical-offset="510">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.7009346" vertical-offset="0" max-vertical-offset="428">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -163,10 +163,10 @@
         <option value="$PROJECT_DIR$/src/exercise/Source.java" />
         <option value="$PROJECT_DIR$/test/exercise/IndexTest.java" />
         <option value="$PROJECT_DIR$/src/exercise/Index.java" />
-        <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/src/exercise/RandomTextGenerator.java" />
         <option value="$PROJECT_DIR$/test/exercise/RandomTextGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -829,37 +829,37 @@
         <state vertical-scroll-proportion="-15.0" vertical-offset="675" max-vertical-offset="16965">
           <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
           <folding>
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425428053000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425428143000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -919,14 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise/RandomTextGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="1125">
@@ -951,11 +943,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38551402" vertical-offset="0" max-vertical-offset="510">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7009346" vertical-offset="0" max-vertical-offset="428">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

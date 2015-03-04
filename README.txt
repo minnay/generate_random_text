@@ -15,7 +15,7 @@ It will package the solution into a jar (app.jar) and run through all of the uni
 How to run it?
 ===============
 Run the following command:
-java -jar app.jar TEXT_SOURCE_FILE "STARTING_WORDS_PAIR"
+java -jar app.jar TEXT_SOURCE_FILE FIRST_WORD_OF_THE_PAIR SECOND_WORD_OF_THE_PAIR
 
 for example,
-java -jar app.jar sample.txt "for the"
+java -jar app.jar sample.txt for the
